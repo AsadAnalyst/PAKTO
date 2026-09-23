@@ -15,12 +15,12 @@ export const navLinks = [
 ];
 
 export const products = [
-  { id: "01", name: "Custom Product Boxes", category: "Retail", description: "Premium boxes designed specifically around your product.", image: "/images/custom-box.jpg", alt: "Custom printed retail product box on a studio surface" },
-  { id: "02", name: "Mailer Boxes", category: "E-commerce", description: "Stylish and durable packaging for e-commerce brands.", image: "/images/mailer-box.jpg", alt: "Open kraft mailer box with tissue paper" },
-  { id: "03", name: "Shipping Boxes", category: "Logistics", description: "Strong packaging designed for safe transportation.", image: "/images/shipping-box.jpg", alt: "Stacked corrugated shipping boxes" },
-  { id: "04", name: "Gift Boxes", category: "Gifting", description: "Elegant packaging for gifts and premium products.", image: "/images/gift-box.jpg", alt: "Rigid gift box with ribbon" },
-  { id: "05", name: "Cosmetic Boxes", category: "Beauty", description: "Premium packaging for beauty and skincare brands.", image: "/images/cosmetic-box.jpg", alt: "Slim cosmetic box beside a serum bottle" },
-  { id: "06", name: "Food Packaging", category: "Food", description: "Functional and attractive packaging for food brands.", image: "/images/food-box.jpg", alt: "Kraft food packaging with a window" },
+  { id: "01", name: "Custom Product Boxes", category: "Retail", price: "$2.40", description: "Premium boxes designed specifically around your product.", image: "/images/custom-box.jpg", alt: "Custom printed retail product box on a studio surface" },
+  { id: "02", name: "Mailer Boxes", category: "E-commerce", price: "$1.85", description: "Stylish and durable packaging for e-commerce brands.", image: "/images/mailer-box.jpg", alt: "Open kraft mailer box with tissue paper" },
+  { id: "03", name: "Shipping Boxes", category: "Logistics", price: "$1.20", description: "Strong packaging designed for safe transportation.", image: "/images/shipping-box.jpg", alt: "Stacked corrugated shipping boxes" },
+  { id: "04", name: "Gift Boxes", category: "Gifting", price: "$3.10", description: "Elegant packaging for gifts and premium products.", image: "/images/gift-box.jpg", alt: "Rigid gift box with ribbon" },
+  { id: "05", name: "Cosmetic Boxes", category: "Beauty", price: "$1.65", description: "Premium packaging for beauty and skincare brands.", image: "/images/cosmetic-box.jpg", alt: "Slim cosmetic box beside a serum bottle" },
+  { id: "06", name: "Food Packaging", category: "Food", price: "$0.95", description: "Functional and attractive packaging for food brands.", image: "/images/food-box.jpg", alt: "Kraft food packaging with a window" },
 ];
 
 export const featuredSpecs = [

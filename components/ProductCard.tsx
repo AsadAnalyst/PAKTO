@@ -15,7 +15,10 @@ export default function ProductCard({ product }: { product: Product }) {
         </span>
       </div>
       <div className="px-1 pt-5">
-        <p className="text-sm text-accent">{product.category}</p>
+        <div className="flex items-center justify-between gap-4">
+          <p className="text-sm text-accent">{product.category}</p>
+          <p className="text-sm font-semibold text-ink">From {product.price}</p>
+        </div>
         <h3 className="mt-1 font-display text-2xl font-bold tracking-tight">{product.name}</h3>
         <p className="mt-2 max-w-sm text-[15px] leading-relaxed text-stone-600">{product.description}</p>
       </div>
