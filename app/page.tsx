@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import Products from "@/components/Products";
 import FeaturedProduct from "@/components/FeaturedProduct";
 import Customization from "@/components/Customization";
+import FinishShowcase from "@/components/FinishShowcase";
 import Process from "@/components/Process";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import Gallery from "@/components/Gallery";
@@ -21,6 +22,7 @@ export default function Home() {
         <Products />
         <FeaturedProduct />
         <Customization />
+        <FinishShowcase />
         <Process />
         <WhyChooseUs />
         <Gallery />
